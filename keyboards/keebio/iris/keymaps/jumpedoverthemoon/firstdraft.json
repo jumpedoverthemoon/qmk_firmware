@@ -3,7 +3,7 @@
   "notes": "top layer matches keycaps\nsecond layer:\n- right hand numpad\n- corner key backspace\n- thumb bs to delete\n- left hand WASD arrows\n- left hand gui zxcvf\nthird layer:\n- right hand corner brackets\n- right hand side return\n- right hand arrows\n\n- bonus: corner backspace, thumb delete\n- bonus: right hand WASD arrows\n",
   "documentation": "\"This file is a QMK Configurator export. You can import this at <https://config.qmk.fm>. It can also be used directly with QMK's source code.\n\nTo setup your QMK environment check out the tutorial: <https://docs.qmk.fm/#/newbs>\n\nYou can convert this file to a keymap.c using this command: `qmk json2c {keymap}`\n\nYou can compile this keymap using this command: `qmk compile {keymap}`\"\n",
   "keyboard": "keebio/iris/rev7",
-  "keymap": "firstdraft",
+  "keymap": "jumpedoverthemoon",
   "layout": "LAYOUT",
   "layers": [
     [
@@ -81,8 +81,8 @@
       "KC_1",
       "KC_UP",
       "KC_3",
-      "KC_4",
-      "KC_5",
+      "LGUI(KC_R)",
+      "LGUI(KC_T)",
       "KC_PGUP",
       "KC_P7",
       "KC_P8",
@@ -109,7 +109,7 @@
       "KC_PEQL",
       "KC_ESC",
       "KC_DEL",
-      "KC_EQL",
+      "RGUI(KC_N)",
       "KC_P1",
       "KC_P2",
       "KC_P3",
@@ -239,5 +239,5 @@
       "KC_TRNS"
     ]
   ],
-  "author": "first draft"
+  "author": "jumpedoverthemoon"
 }
